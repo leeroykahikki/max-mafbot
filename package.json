@@ -1,0 +1,25 @@
+{
+  "name": "max-mafbot",
+  "version": "0.0.1",
+  "description": "Mafbot for MAX Messenger",
+  "main": "index.ts",
+  "scripts": {
+    "check": "tsc --project tsconfig.json --noEmit",
+    "start": "tsc-watch --project tsconfig.json --onSuccess \"node ./dist/src/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeroykahikki/max-mafbot.git"
+  },
+  "author": "Leeroyka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeroykahikki/max-mafbot/issues"
+  },
+  "homepage": "https://github.com/leeroykahikki/max-mafbot#readme",
+  "devDependencies": {
+    "@tsconfig/node-ts": "^23.6.1",
+    "@types/node": "^24.3.0",
+    "tsc-watch": "^7.1.1"
+  }
+}
