@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/leeroykahikki/max-mafbot.git"
   },
+  "type": "module",
   "author": "Leeroyka",
   "license": "MIT",
   "bugs": {
@@ -19,7 +20,13 @@
   "homepage": "https://github.com/leeroykahikki/max-mafbot#readme",
   "devDependencies": {
     "@tsconfig/node-ts": "^23.6.1",
+    "@types/dotenv": "^8.2.3",
     "@types/node": "^24.3.0",
-    "tsc-watch": "^7.1.1"
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^0.2.1",
+    "dotenv": "^17.2.1"
   }
 }
